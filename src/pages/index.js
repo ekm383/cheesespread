@@ -75,35 +75,6 @@ const Index = () => {
             </div>
           </div>
         </Section>
-        <Section style={{ width: "80vw", margin: "2rem auto 2rem auto" }}>
-          <div className="content-intro">
-            <h1>BUSHELS AND FEASTS</h1>
-            <h3>
-              170 FARM TO TABLE RECIPES FOR A GLUTEN AND GRAIN FREE LIFESTYLE
-            </h3>
-            <p>By Rina Thoma with Sarah Fragoso</p>
-            <p style={{ marginTop: "1rem" }}>
-              BUSHELS AND FEASTS is a collaboration between Le Cordon Bleu
-              trained chef Rina Thoma and international bestselling cookbook
-              author Sarah Fragoso. The result is a celebration of real food
-              inspired by California and French cuisine; beautiful, delicious,
-              market-fresh, family meals free from gluten and grains and filled
-              with healthy fats and decadent desserts.
-            </p>
-          </div>
-        </Section>
-        <Section style={{ width: "80vw", margin: "2rem auto 2rem auto" }}>
-          <div className="testimonial">
-            <div className="testimonial-copy">
-              <h4>Testimonial:</h4>
-              <ul className="contentList">
-                {testimonial.map((value, id) => {
-                  return <li key={id}>{value}</li>
-                })}
-              </ul>
-            </div>
-          </div>
-        </Section>
       </Wrapper>
     </Layout>
   )
