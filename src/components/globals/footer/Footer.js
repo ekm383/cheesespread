@@ -27,13 +27,11 @@ class Footer extends Component {
       <FooterWrapper>
         <div className="box contact">
           <h6>
-            <a href="/">BUSHELS AND FEASTS</a>
+            <a href="/">
+              HOW TO CREATE THE ULTIMATE CHEESE SPREAD WITH WINE PAIRINGS
+            </a>
           </h6>
-          <p>
-            170 Farm to Table Recipes for a Gluten and Grain Free Lifestyle
-            <br />
-            By Rina Thoma with Sarah Fragoso
-          </p>
+          <p>By Rina Thoma with Sarah Fragoso</p>
           {this.state.icons.map(item => (
             <a
               href={item.path}
