@@ -26,11 +26,7 @@ class Footer extends Component {
     return (
       <FooterWrapper>
         <div className="box contact">
-          <h6>
-            <a href="/">
-              HOW TO CREATE THE ULTIMATE CHEESE SPREAD WITH WINE PAIRINGS
-            </a>
-          </h6>
+          <h6>HOW TO CREATE THE ULTIMATE CHEESE SPREAD WITH WINE PAIRINGS</h6>
           <p>By Rina Thoma with Sarah Fragoso</p>
           {this.state.icons.map(item => (
             <a
@@ -67,7 +63,7 @@ const FooterWrapper = styled.div`
   .contact {
     h6 {
       color: #ffffff;
-      font-size: 2rem;
+      font-size: 1rem;
     }
     p {
       color: #ffffff;
