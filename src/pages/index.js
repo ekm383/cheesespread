@@ -22,7 +22,6 @@ const Index = () => {
             }
           }
         }
-        testimonial
       }
       rina: file(relativePath: { eq: "rina-cookbook-img.jpg" }) {
         childImageSharp {
@@ -40,7 +39,7 @@ const Index = () => {
       }
     }
   `)
-  const { title, src, testimonial } = data.promoItem
+  const { title, src } = data.promoItem
   return (
     <Layout>
       <Wrapper>
