@@ -17,7 +17,7 @@ const SignUpForm = () => {
 
   const handleSubmit = e => {
     e.preventDefault()
-    setMessage("Thank you for Subscribing!")
+    setMessage("THANK YOU FOR DOWNLOADING!")
     addToMailchimp(email, {
       FNAME: name,
     })
